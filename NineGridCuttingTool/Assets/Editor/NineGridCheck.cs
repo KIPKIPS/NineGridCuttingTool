@@ -6,9 +6,9 @@ using Object = UnityEngine.Object;
 using System.Collections.Generic;
 namespace EditorTools.UI {
     // 格式化贴图尺寸到4的倍数
-    public class NineGridCheck {
+    public class NineGridCheck {
         //检测的目录,Icon资源和界面预制体引用的贴图资源
-        public const string UI_TEXTURE_PATH = "Assets/Things/Textures/UI";
+        public const string UI_TEXTURE_PATH = "Assets/Textures";
         static List<string> canGridList = new List<string>();
         [MenuItem("Assets/NineGridCheck", false, 103)]
         public static void Main() {
